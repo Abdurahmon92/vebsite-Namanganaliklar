@@ -63,7 +63,7 @@ img {
 /* header headerstyle */
 .header {}
 
-/* header headerstyle */
+
 
 
 /* HEADER-TOP STYLE */
@@ -113,16 +113,12 @@ img {
 
 
 
-.curense-reates-strong {
-}
+.curense-reates-strong {}
 
-.curence-rates-text {
+.curence-rates-text {}
 
-}
+.header__top-form {}
 
-.header__top-form {
-  
-}
 .header__top-search-input {
   background-color: #fff;
   color: #8D8D8D;
@@ -136,7 +132,7 @@ img {
   margin-right: 25px;
   background-image: url(./img/Mask.svg);
   background-repeat: no-repeat;
-  background-position: 17.5px center; 
+  background-position: 17.5px center;
 }
 
 
@@ -149,10 +145,11 @@ img {
   border-radius: 39px;
   background-color: #DCE6FF;
   padding: 3px;
- 
+
 
 
 }
+
 .lang-togler-link {
   padding: 7px 6px;
   font-weight: 400;
@@ -166,14 +163,67 @@ img {
 
 
 .lang-togler-link-active {
-  background-color: #FFFFFF; 
-} 
+  background-color: #FFFFFF;
+}
 
 .header__top-btn {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 18.96px;
-      color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.96px;
+  color: #fff;
 }
 
 /* HEADER-TOP STYLE END*/
+
+/* HEADER BOTTOM STYLES */
+
+.header__bottom {
+  padding: 30px 120px 50px 120px;
+  background-color: #fdfbfb;
+}
+
+.header__bottom-container {
+
+}
+
+.header__bottom-navigation {
+  
+}
+
+.header__bottom-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header__bottom-list-item {
+ 
+}
+
+.header__bottom-list-item-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.33px;
+  color: #7F7F7F;
+}
+
+.header__bottom-hr {
+  width: 100%;
+  color: #D1D1D1;
+  margin-top: 20px;
+
+}
+
+.header__bottom-banner {
+  margin-top: 40px;
+}
+
+.header__bottom-banner-img {
+  
+}
+
+
+/* HEADER BOTTOM STYLES END*/
+
+/* header headerstyle end*/
