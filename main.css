@@ -62,16 +62,11 @@ img {
 
 
 /* header headerstyle */
-.header {}
 
 
 
 
 /* HEADER-TOP STYLE */
-.header__top {
-  background-color: #F6F6F6;
-  padding: 30px 120px;
-}
 
 .header__container {
   display: flex;
@@ -118,9 +113,7 @@ img {
   color: #7296EE;
 }
 
-.curence-rates-text {}
 
-.header__top-form {}
 
 .header__top-search-input {
   background-color: #fff;
@@ -182,10 +175,6 @@ img {
   background-color: #fdfbfb;
 }
 
-.header__bottom-container {
-
-}
-
 .header__bottom-navigation {
   padding: 25px 0px 15px 0px;
   border-bottom: 1px solid #7F7F7F;
@@ -221,9 +210,6 @@ img {
   width: 100%;
 }
 
-.header__bottom-banner-img {
- 
-}
 /* HEADER BOTTOM STYLES END*/
 
 
