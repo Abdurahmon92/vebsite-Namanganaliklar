@@ -25,18 +25,17 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: 'Rubik', Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: none;
   color: #000;
-  /* font-family: 'Rubik', Arial, sans-serif; */
 }
 
 img {
-  min-width: 100%;
+  max-width: 100%;
   height: auto;
-}
+} 
 
 /* contayner styles */
 .contayner {
@@ -63,10 +62,11 @@ img {
 
 /* header headerstyle */
 
-
-
-
 /* HEADER-TOP STYLE */
+.header__top {
+  padding: 30px 0px 30px 0px;
+  background-color: #F6F6F6;
+}
 
 .header__container {
   display: flex;
@@ -74,21 +74,14 @@ img {
 }
 
 .header__logo {
+  padding: 9px 6px 8px 6px;
   background: #fff;
   border-radius: 7px;
-  height: 50px;
-  text-align: center;
   margin-right: 41px;
-
 }
 
-.header-logo-txt {
-  width: 264px;
-  text-decoration: none;
-  font-size: 20px;
-  line-height: 30.44px;
-  font-weight: 900 bold;
-  color: #7296EE;
+.header__logo-img {
+  
 }
 
 .current-lates {
@@ -193,7 +186,7 @@ img {
 }
 
 .header__bottom-list-item:not(:last-child) {
-  margin-right: 41.8px;
+  margin-right: 41.80px;
 
 }
 
@@ -207,10 +200,93 @@ img {
 
 .header__bottom-banner {
   margin-top: 40px;
-  width: 100%;
+  display: flex;
+}
+
+.header__bottom-banner-img {
+   width: 100%;
+   height: auto;
 }
 
 /* HEADER BOTTOM STYLES END*/
 
 
-/* header headerstyle end*/
+/*  header styles end*/
+
+/* SITE MAIN STYLES */
+.site-main {
+  margin-top: 50px;
+}
+/* NEW-CARDS STYLES */
+.news-cards-container{}
+
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-bottom: -10px;
+
+}
+/* NEV-CARDS-ITEM STYLES */
+.newscard-item {
+  width: 393px;
+  padding: 20px 18px 18px 17px;
+  border-radius: 15px;
+  background-color: #F6F6F6;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.nenws-cards-item-title {
+   margin-bottom: 10px;
+}
+
+.nenws-cards-item-title-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #000;
+}
+
+.nenws-cards-item-text {
+  font-size: 16px;
+  font-weight: 400; 
+  line-height: 22px;
+  color: #4A4B4C;
+  margin-bottom: 15px;
+
+}
+.nenws-cards-item-img {
+  width: 395px;
+  height: 165px;
+  object-fit: cover;
+  margin-top: auto;
+  margin-bottom: 15px;
+}
+.nenws-cards-item-futer {
+  display: flex;
+  align-items: center;
+
+}
+.nenws-cards-item-futer-img {
+  width: 20px;
+  height:20px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.nenws-cards-item-futer-text,
+.nenws-cards-item-futer-time {
+  font-size: 12px;
+  line-height: 14.22px;
+  color: #5E5F61;
+}
+
+.nenws-cards-item-futer-time {
+  margin-left: 5px;
+}
+/* NEW-CARDS-ITEM STYLES */
+
+/* NEW-CARDS STYLES END*/
+
+/* SITE MAIN STYLES END*/
