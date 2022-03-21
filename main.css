@@ -177,7 +177,6 @@ img {
 .header__bottom-list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .header__bottom-list-item{
@@ -186,7 +185,7 @@ img {
 }
 
 .header__bottom-list-item:not(:last-child) {
-  margin-right: 41.80px;
+  margin-right: 40.80px;
 
 }
 
