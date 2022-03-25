@@ -79,6 +79,13 @@ img {
   border-radius: 7px;
   margin-right: 41px;
 }
+.header__logo:hover {
+   opacity: 0.8;
+}
+
+.header__logo:active {
+  opacity: 0.6;
+}
 
 .header__logo-img {}
 
@@ -158,6 +165,14 @@ img {
   color: #fff;
 }
 
+.header__top-btn:hover {
+    opacity: 0.8;
+}
+
+.header__top-btn:active {
+  opacity: 0.6;
+}
+
 /* HEADER-TOP STYLE END*/
 
 /* HEADER BOTTOM STYLES */
@@ -194,6 +209,15 @@ img {
   color: #7F7F7F;
 }
 
+.header__bottom-list-item-link:hover {
+   color: #7296EE; 
+}
+
+.header__bottom-list-item-link:active {
+  opacity: 0.8; 
+}
+
+
 
 .header__bottom-banner {
   margin-top: 40px;
@@ -203,6 +227,10 @@ img {
 .header__bottom-banner-img {
   width: 100%;
   height: auto;
+}
+
+.header__bottom-banner-img:active {
+  opacity: 0.6;
 }
 
 /* HEADER BOTTOM STYLES END*/
@@ -238,6 +266,10 @@ img {
   flex-direction: column;
 }
 
+.newscard-item:hover {
+  box-shadow: 1px 2px 8px 0px rgba(93, 100, 105, 0.2);
+}
+
 .nenws-cards-item-title {
   margin-bottom: 10px;
 }
@@ -247,6 +279,14 @@ img {
   line-height: 26px;
   font-weight: 500;
   color: #000;
+}
+
+.nenws-cards-item-title-link:hover {
+   color: #7296EE;
+}
+
+.nenws-cards-item-title-link:active {
+  opacity: 0.6;
 }
 
 .nenws-cards-item-text {
@@ -264,6 +304,11 @@ img {
   object-fit: cover;
   margin-top: auto;
   margin-bottom: 15px;
+}
+
+.nenws-cards-item-img:hover {
+  object-position: center;
+  object-fit: fill;
 }
 
 .nenws-cards-item-futer {
@@ -289,8 +334,8 @@ img {
 .nenws-cards-item-futer-time {
   margin-left: 5px;
 }
-
 /* NEW-CARDS-ITEM STYLES END*/
+
 /* NEW-CARDS STYLES END*/
 
 /* NOTIFICATION STYLE */
@@ -321,7 +366,6 @@ img {
   line-height: 26px;
   color: #000;
   width: 404px;
-
 }
 
 .site-notification-btn {
@@ -331,6 +375,13 @@ img {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+}
+.site-notification-btn:hover {
+  opacity: 0.8;
+}
+
+.site-notification-btn:active {
+  opacity: 0.6;
 }
 
 /* NOTIFICATION STYLE END*/
@@ -358,17 +409,16 @@ img {
   position: absolute;
   top: 0px;
   left: 0px;
-
 }
+
 
 .global-news-list {
   margin-bottom: 17px;
   width: 100%;
   max-width: 797px;
-
-
-
 }
+
+
 
 .global-news-list-item {
   border-radius: 15px;
@@ -402,6 +452,15 @@ img {
 
 
 }
+
+.global-news-list-item-content-link:hover {
+  color: #7296EE;
+}
+
+.global-news-list-item-content-link :active {
+  opacity: 0.6;
+}
+
 
 .global-news-list-item-content-title {
   margin-bottom: 10px;
@@ -449,7 +508,13 @@ img {
   background-color: #EAEAEA;
   cursor: pointer;
 }
+.global-news-btn:hover {
+  opacity: 0.8;
+}
 
+.global-news-btn:active {
+  opacity: 0.6;
+}
 /* SECTION GLOBAL NEWS SIDEBAR STYLE */
 .global-news-sidebar {
   width: 100%;
@@ -512,18 +577,34 @@ img {
   height: 338px;
 }
 
+.global-news-sidebar-reklama-baner-img:active {
+  opacity: 0.6;
+}
 /* SECTION GLOBAL NEWS SIDEBAR STYLE END*/
 /* SECTION  SECTION GLOBAL NEWS STYLE END */
 /* SITE MAIN STYLES END*/
 
 /* SECTION FOOTER STYELE */
 .secton-footer {
+  width: 100%;
   padding: 40px 221px;
   background-color: #7297EF;
+}
+.secton-footer *:focus {
+  outline: 1px dashed #fff;
 }
 
 .footer-top-logo {
   margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer-top-logo:hover {
+  opacity: 0.8;
+}
+
+.footer-top-logo:active {
+  opacity: 0.6;
 }
 
 .footer-top-logo-img {
@@ -572,6 +653,10 @@ img {
   color: #fff;
 }
 
+.footer-top-list-item-link:hover {
+    text-decoration: underline;
+}
+
 
 /* SECTION FOOTER TOP STYLE  END */
 
@@ -584,6 +669,7 @@ img {
  justify-content: space-between;
 
 }
+
 .footer-bottom-title {
   width: 161px;
   font-weight: 500;
@@ -600,13 +686,19 @@ img {
   
 }
 
-.footer-bottom-list-item:not(:last-child){
+.footer-bottom-list-item:not(:last-child) {
   margin-right: 25px;
 }
 
 .footer-bottom-list-item-link {
   text-decoration: none;
+}
 
+.footer-bottom-list-item-link:hover {
+  opacity: 0.8;
+}
+.footer-bottom-list-item-link :active {
+  opacity: 0.6;
 }
 
 .footer-bottom-list-item-img {
@@ -614,6 +706,13 @@ img {
   height: 25px;
 }
 
+.footer-bottom-list-item-img:hover {
+  opacity: 0.8;
+}
+
+.footer-bottom-list-item-img:active {
+  opacity: 0.6;
+}
 /* SECTION FOOTER BOTTOM STYLE END */
 /* SECTION FOOTER STYELE END */
 
