@@ -449,8 +449,6 @@ img {
   font-size: 20px;
   line-height: 26px;
   color: #000;
-
-
 }
 
 .global-news-list-item-content-link:hover {
@@ -577,6 +575,11 @@ img {
   height: 338px;
 }
 
+.list-global-news-sidebar-reklama-baner-img {
+  width: 393px;
+  height: 553px;
+}
+
 .global-news-sidebar-reklama-baner-img:active {
   opacity: 0.6;
 }
@@ -642,6 +645,7 @@ img {
 .footer-top-list-item:not(:last-child){
   margin-right: 100px;
 }
+
 .footer-top-list-item:not(:last-child) {
    margin-bottom: 20px;
 }
