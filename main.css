@@ -79,8 +79,9 @@ img {
   border-radius: 7px;
   margin-right: 41px;
 }
+
 .header__logo:hover {
-   opacity: 0.8;
+  opacity: 0.8;
 }
 
 .header__logo:active {
@@ -166,7 +167,7 @@ img {
 }
 
 .header__top-btn:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .header__top-btn:active {
@@ -210,11 +211,11 @@ img {
 }
 
 .header__bottom-list-item-link:hover {
-   color: #7296EE; 
+  color: #7296EE;
 }
 
 .header__bottom-list-item-link:active {
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
 
@@ -282,7 +283,7 @@ img {
 }
 
 .nenws-cards-item-title-link:hover {
-   color: #7296EE;
+  color: #7296EE;
 }
 
 .nenws-cards-item-title-link:active {
@@ -334,6 +335,7 @@ img {
 .nenws-cards-item-futer-time {
   margin-left: 5px;
 }
+
 /* NEW-CARDS-ITEM STYLES END*/
 
 /* NEW-CARDS STYLES END*/
@@ -376,6 +378,7 @@ img {
   border: none;
   cursor: pointer;
 }
+
 .site-notification-btn:hover {
   opacity: 0.8;
 }
@@ -462,6 +465,11 @@ img {
 
 .global-news-list-item-content-title {
   margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+
 }
 
 .global-news-list-item-content-txt {
@@ -506,6 +514,7 @@ img {
   background-color: #EAEAEA;
   cursor: pointer;
 }
+
 .global-news-btn:hover {
   opacity: 0.8;
 }
@@ -513,6 +522,7 @@ img {
 .global-news-btn:active {
   opacity: 0.6;
 }
+
 /* SECTION GLOBAL NEWS SIDEBAR STYLE */
 .global-news-sidebar {
   width: 100%;
@@ -583,6 +593,7 @@ img {
 .global-news-sidebar-reklama-baner-img:active {
   opacity: 0.6;
 }
+
 /* SECTION GLOBAL NEWS SIDEBAR STYLE END*/
 /* SECTION  SECTION GLOBAL NEWS STYLE END */
 /* SITE MAIN STYLES END*/
@@ -593,6 +604,7 @@ img {
   padding: 40px 221px;
   background-color: #7297EF;
 }
+
 .secton-footer *:focus {
   outline: 1px dashed #fff;
 }
@@ -634,20 +646,16 @@ img {
   margin-right: 203px;
 }
 
-.footer-top-list {
-   
-}
+.footer-top-list {}
 
-.footer-top-list-item {
-   
-}
+.footer-top-list-item {}
 
-.footer-top-list-item:not(:last-child){
+.footer-top-list-item:not(:last-child) {
   margin-right: 100px;
 }
 
 .footer-top-list-item:not(:last-child) {
-   margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-top-list-item-link {
@@ -658,7 +666,7 @@ img {
 }
 
 .footer-top-list-item-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
@@ -666,11 +674,11 @@ img {
 
 /* SECTION FOOTER BOTTOM STYLE  */
 .footer-bottom-wraper {
- width: 998px;
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: space-between;
+  width: 998px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
 }
 
@@ -686,9 +694,7 @@ img {
   display: flex;
 }
 
-.footer-bottom-list-item {
-  
-}
+.footer-bottom-list-item {}
 
 .footer-bottom-list-item:not(:last-child) {
   margin-right: 25px;
@@ -701,6 +707,7 @@ img {
 .footer-bottom-list-item-link:hover {
   opacity: 0.8;
 }
+
 .footer-bottom-list-item-link :active {
   opacity: 0.6;
 }
@@ -717,8 +724,72 @@ img {
 .footer-bottom-list-item-img:active {
   opacity: 0.6;
 }
+
 /* SECTION FOOTER BOTTOM STYLE END */
 /* SECTION FOOTER STYELE END */
+
+
+
+/* CONTACT HTML STYLES */
+
+/* CONTACT FORUM STYLES  */
+.contact-wraper {
+  display: flex;
+  padding-top: 48px;
+  position: relative;
+}
+
+.contact-wraper-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 696px;
+}
+
+.contact-wraper-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.44px;
+  color: #000000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.contact-wraper-input-both {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-wraper-input {
+  border-radius: 10px;
+  border: 1px solid rgba( 0, 0,0, 0.2);
+  padding: 18px 20px;
+  color: #000;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.contact-wraper-input-both-item {
+  width: calc(50% - 5px);
+
+}
+
+.contact-wraper-textarea {
+  height: 180pp;
+  margin-bottom: 20px;
+}
+
+.contact-wraper-button {
+  padding: 17px 30px;
+  background-color: #7297EF;
+  color: #fff;
+}
+
+/* CONTACT FORUM STYLES END  */
 
 
 
